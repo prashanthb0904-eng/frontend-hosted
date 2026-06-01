@@ -31,6 +31,7 @@ Vite
 frontend/
 │
 ├── public/
+
 ├── src/
 │   ├── components/
 │   ├── pages/
