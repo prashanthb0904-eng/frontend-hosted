@@ -1,16 +1,125 @@
-# React + Vite
+Product Inventory Management System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive frontend application for managing product inventory efficiently. This project provides an intuitive user interface for creating, viewing, updating, and deleting products while interacting seamlessly with the backend API.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Frontend Hosted URL:
+Add your deployed frontend URL here after deployment.
 
-## React Compiler
+Example:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://your-frontend-app.vercel.app
+📌 Features
+View all products in a clean dashboard
+Add new products to inventory
+Edit existing product details
+Delete products from inventory
+Search and filter products
+Responsive design for desktop and mobile devices
+Real-time integration with FastAPI backend
+User-friendly interface with modern UI components
+🛠️ Tech Stack
+React.js
+JavaScript
+HTML5
+CSS3
+Axios
+React Router
+Vite
+📂 Project Structure
+frontend/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+⚙️ Installation
+1. Clone the Repository
+git clone https://github.com/prashanthb0904-eng/frontend-hosted.git
+cd frontend-hosted
+2. Install Dependencies
+npm install
+3. Configure Environment Variables
 
-## Expanding the ESLint configuration
+Create a .env file in the root directory:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+VITE_API_URL=http://localhost:8000
+
+Replace the URL with your deployed backend API URL when deploying.
+
+4. Start Development Server
+npm run dev
+
+Application will run on:
+
+http://localhost:5173
+🔗 Backend Integration
+
+The frontend communicates with the FastAPI backend through REST APIs.
+
+Example API Endpoint:
+
+GET /products
+POST /products
+PUT /products/{id}
+DELETE /products/{id}
+
+Make sure the backend server is running before accessing the frontend application.
+
+📱 Screens Included
+Dashboard
+Product Listing
+Add Product Form
+Edit Product Form
+Product Details
+Search & Filter Interface
+🚀 Deployment
+Build Production Version
+npm run build
+Preview Production Build
+npm run preview
+Deploy Using
+Vercel
+Netlify
+GitHub Pages
+🧪 Testing
+
+Run tests using:
+
+npm test
+📈 Future Enhancements
+User Authentication
+Role-Based Access Control
+Product Categories
+Inventory Analytics Dashboard
+Export Reports (PDF/Excel)
+Dark Mode Support
+Advanced Filtering & Sorting
+🤝 Contributing
+
+Contributions are welcome.
+
+Fork the repository
+Create a new branch
+git checkout -b feature-name
+Commit changes
+git commit -m "Add feature"
+Push to branch
+git push origin feature-name
+Open a Pull Request
+📄 License
+
+This project is developed for educational and learning purposes.
+
+👨‍💻 Author
+
+Prashanth Ganesh
